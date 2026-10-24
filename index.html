@@ -833,7 +833,7 @@
   <div class="larg">
     <div class="cabeca">
       <span class="olho"><i></i>Instalar</span>
-      <h2>Do download ao primeiro dia lido, em <em>sete</em> passos.</h2>
+      <h2>Do download ao primeiro dia lido, em <em>sete</em> passos (e um opcional).</h2>
       <p class="intro">O revisa. é uma extensão do Microsoft Edge. Instala uma vez por computador, em uns três minutos, e depois abre pelo ícone na barra do Edge, ao lado do SOC.</p>
     </div>
 
@@ -843,7 +843,7 @@
         <div style="min-width:0">
           <h3>Extensão revisa. para o Edge</h3>
           <p>Um arquivo .zip com a extensão inteira. Não precisa de instalador nem de senha de administrador.</p>
-          <div class="meta"><span>revisa-extensao.zip</span><span>102 KB</span><span>versão 1.0.0</span><span>Windows · Microsoft Edge</span></div>
+          <div class="meta"><span>revisa-extensao.zip</span><span>105 KB</span><span>versão 1.0.0</span><span>Windows · Microsoft Edge</span></div>
         </div>
         <a class="bt p" href="revisa-extensao.zip" download data-baixar>Baixar a extensão<span class="bola"><svg class="ic" viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"><path d="M12 4v12"/><path d="m6 11 6 6 6-6"/><path d="M5 20h14"/></svg></span></a>
         <p class="msg" id="msgBaixar" role="status" hidden></p>
@@ -863,7 +863,7 @@
           <div class="menu" style="right:10px;top:84px;min-width:230px">
             <span><b style="font-weight:600">Downloads</b></span>
             <span class="ip-lin"></span>
-            <span><span class="arqzip"></span><span class="grow">revisa-extensao.zip<br><small style="color:#666">Concluído · 102 KB</small></span></span>
+            <span><span class="arqzip"></span><span class="grow">revisa-extensao.zip<br><small style="color:#666">Concluído · 105 KB</small></span></span>
           </div>
           <span class="etq" style="right:52px;top:52px"><b>1</b>O download aparece aqui</span>
         </div>
@@ -986,6 +986,25 @@
           <div class="barra-end"><span class="end">sistema.soc.com.br</span><span class="ico alvo"><span class="ext-r">r</span></span><span class="ico"><svg viewBox="0 0 24 24"><path d="M10 3h4v3a2 2 0 1 0 0 4v1h3v4h-1a2 2 0 1 0 0 4h1v2H7v-4h1a2 2 0 1 0 0-4H7V7h3z"/></svg></span></div>
           <div class="corpo" style="min-height:200px"><div class="ip-soc"><i style="width:45%"></i><i style="width:90%"></i><i style="width:90%"></i><i style="width:70%"></i><i style="width:85%"></i></div></div>
           <span class="etq" style="right:46px;top:96px"><b>7</b>Clique para abrir o painel</span>
+        </div>
+      </article>
+
+      <article class="ip-passo">
+        <div>
+          <span class="ip-n">8</span>
+          <h3>Opcional: revisão automática com o seu Claude</h3>
+          <p>Quem tem assinatura <b>Claude Pro ou Max</b> e o <b>Claude Code</b> instalado pode deixar a revisão automática. Na pasta <b>revisa-extensao</b>, dê <b>dois cliques</b> no arquivo <b>Ligar ao Claude</b>. Ele avisa quando terminar.</p>
+          <p class="dica-txt">Se o Windows mostrar "O Windows protegeu o computador", clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>. Sem Claude? O revisa. funciona copiando e colando no ChatGPT, Gemini, Claude ou Copilot, que têm plano grátis.</p>
+        </div>
+        <div class="tela" aria-label="Ilustração: o arquivo Ligar ao Claude dentro da pasta da extensão">
+          <div class="barra-ab"><span class="aba"><span class="pasta"></span>revisa-extensao</span></div>
+          <div class="corpo" style="min-height:200px;flex-direction:column;padding:10px">
+            <div class="linha-arq"><span class="pasta"></span>icone-128.png<small>Imagem PNG</small></div>
+            <div class="linha-arq sel alvo"><span class="ext-r"></span><b style="font-weight:600">Ligar ao Claude</b><small>Script do Windows</small></div>
+            <div class="linha-arq"><span class="arqzip" style="background:#e3e6ec"></span>manifest.json<small>Arquivo JSON</small></div>
+            <div class="linha-arq"><span class="arqzip" style="background:#e3e6ec"></span>painel.html<small>Documento HTML</small></div>
+          </div>
+          <span class="etq" style="right:14px;bottom:16px"><b>8</b>Dois cliques aqui</span>
         </div>
       </article>
     </div>
@@ -1154,7 +1173,7 @@
 </div>
 <script>
 (() => {
-  // O zip da extensão, embutido (102 KB).
+  // O zip da extensão, embutido (105 KB).
   const ZIP = '';
   const $ = (id) => document.getElementById(id);
 
