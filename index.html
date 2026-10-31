@@ -441,13 +441,13 @@
       <div>
         <span class="olho entra" style="--i:0"><i></i>Auditor do SOC para medicina do trabalho</span>
         <h1><span class="ln"><span style="--i:0">Revisado<b style="--i:0">.</b></span></span><span class="ln"><span style="--i:1">Assinado<b style="--i:1">.</b></span></span></h1>
-        <p class="lead entra" style="--i:1">O revisa. lê a sua agenda no SOC, mostra a <strong>ficha que não foi gerada</strong>, o <strong>PDF que ficou sem assinatura</strong> e confere cada anamnese contra a NR-7. Você aprova o texto. Salvar e assinar continua sendo você.</p>
+        <p class="lead entra" style="--i:1">O revisa. lê a sua agenda no SOC, mostra a <strong>ficha que não foi gerada</strong>, o <strong>PDF que ficou sem assinatura</strong> e confere cada anamnese contra a NR-7. Você aprova o texto; salvar, gerar o PDF e assinar só acontecem com o seu clique, por paciente ou em lote.</p>
         <div class="acoes entra" style="--i:2">
           <a class="bt p" href="#instalar">Instalar a extensão<span class="bola"><svg class="ic"><use href="#i-seta"/></svg></span></a>
           <a class="bt s" data-painel href="#">Entrar no painel</a>
         </div>
         <div class="garantias entra" style="--i:3">
-          <span><svg class="ic"><use href="#i-ok"/></svg>Só lê o SOC</span>
+          <span><svg class="ic"><use href="#i-ok"/></svg>Só escreve com o seu clique</span>
           <span><svg class="ic"><use href="#i-ok"/></svg>Nome e CPF não vão para a IA</span>
           <span><svg class="ic"><use href="#i-ok"/></svg>Assinar é sempre você</span>
         </div>
@@ -623,7 +623,7 @@
       <div class="trilho">
         <div class="via" aria-hidden="true"><div class="viajante"></div></div>
         <div class="casca estado" data-surge><div class="miolo"><span class="eta">01</span><div class="no" style="background:var(--vermelho-claro);color:var(--vermelho)"><svg class="ic"><use href="#i-arquivo-x"/></svg></div><h3>Não gerada</h3><p>Está na agenda, mas a ficha ainda não existe no SOC.</p></div></div>
-        <div class="casca estado" data-surge style="--d:1"><div class="miolo"><span class="eta">02</span><div class="no" style="background:var(--ambar-claro);color:var(--ambar)"><svg class="ic"><use href="#i-arquivo"/></svg></div><h3>Gravada sem PDF</h3><p>Ficha salva. Falta gerar o PDF para assinatura.</p></div></div>
+        <div class="casca estado" data-surge style="--d:1"><div class="miolo"><span class="eta">02</span><div class="no" style="background:var(--ambar-claro);color:var(--ambar)"><svg class="ic"><use href="#i-arquivo"/></svg></div><h3>Salva, PDF não gerado</h3><p>Ficha salva. Falta gerar o PDF para assinatura.</p></div></div>
         <div class="casca estado" data-surge style="--d:2"><div class="miolo"><span class="eta">03</span><div class="no" style="background:var(--ambar-claro);color:var(--ambar)"><svg class="ic"><use href="#i-pdf"/></svg></div><h3>PDF sem assinatura</h3><p>Na Assinatura Digital, esperando o seu certificado.</p></div></div>
         <div class="casca estado" data-surge style="--d:3"><div class="miolo"><span class="eta">04</span><div class="no" style="background:var(--azul-claro);color:var(--azul)"><svg class="ic"><use href="#i-pena"/></svg></div><h3>Assinada</h3><p>PDF gerado e assinado. Nada a fazer.</p></div></div>
       </div>
@@ -843,7 +843,7 @@
         <div style="min-width:0">
           <h3>Extensão revisa. para o Edge</h3>
           <p>Um arquivo .zip com a extensão inteira. Não precisa de instalador nem de senha de administrador.</p>
-          <div class="meta"><span>revisa-extensao.zip</span><span>141 KB</span><span>versão 1.0.0</span><span>Windows · Microsoft Edge</span></div>
+          <div class="meta"><span>revisa-extensao.zip</span><span>147 KB</span><span>versão 1.0.0</span><span>Windows · Microsoft Edge</span></div>
         </div>
         <a class="bt p" href="revisa-extensao.zip" download data-baixar>Baixar a extensão<span class="bola"><svg class="ic" viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round"><path d="M12 4v12"/><path d="m6 11 6 6 6-6"/><path d="M5 20h14"/></svg></span></a>
         <p class="msg" id="msgBaixar" role="status" hidden></p>
@@ -863,7 +863,7 @@
           <div class="menu" style="right:10px;top:84px;min-width:230px">
             <span><b style="font-weight:600">Downloads</b></span>
             <span class="ip-lin"></span>
-            <span><span class="arqzip"></span><span class="grow">revisa-extensao.zip<br><small style="color:#666">Concluído · 141 KB</small></span></span>
+            <span><span class="arqzip"></span><span class="grow">revisa-extensao.zip<br><small style="color:#666">Concluído · 147 KB</small></span></span>
           </div>
           <span class="etq" style="right:52px;top:52px"><b>1</b>O download aparece aqui</span>
         </div>
@@ -1173,7 +1173,7 @@
 </div>
 <script>
 (() => {
-  // O zip da extensão, embutido (141 KB).
+  // O zip da extensão, embutido (147 KB).
   const ZIP = '';
   const $ = (id) => document.getElementById(id);
 
